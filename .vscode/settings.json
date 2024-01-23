@@ -1,0 +1,13 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "files.trimFinalNewlines": true, //ファイルの保存時に最終行以降の新しい行をトリミン
+  "files.insertFinalNewline": true, //ファイルの保存時に最新の行を末尾に追加
+  "files.trimTrailingWhitespace": true, //末尾の空白をトリミング
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.colorOnWhiteSpaceOnly": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  }
+}
